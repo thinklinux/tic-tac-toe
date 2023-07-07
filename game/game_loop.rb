@@ -35,6 +35,4 @@ def game_loop
   end
 
   game_state.save_replay
-
-  draw_board(game_state.state)
 end
